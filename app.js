@@ -70,8 +70,6 @@ app.post("/failure", function(req, res) {
 });
 
 
-
-
 // API KEY
 // 739e8f6bfd015c099d38ae41711539ae-us12
 
@@ -79,6 +77,6 @@ app.post("/failure", function(req, res) {
 // b921c20e94
 
 
-app.listen (port, function(){
+app.listen (process.env.PORT || port, function(){
   console.log(`Example app listening on port ` + port);
 })
