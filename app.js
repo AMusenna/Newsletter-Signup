@@ -41,7 +41,7 @@ app.post("/", function(req, res){
 
   const options = {
               method: "POST",
-              auth: "ahmet1:739e8f6bfd015c099d38ae41711539ae-us12"
+              auth: "ahmet1:-"
 
   }
 
@@ -71,7 +71,7 @@ app.post("/failure", function(req, res) {
 
 
 // API KEY
-// 739e8f6bfd015c099d38ae41711539ae-us12
+// -
 
 // Audience ID or List ID
 // b921c20e94
